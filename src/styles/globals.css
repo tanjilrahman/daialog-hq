@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-darkBlue text-daialogWhite font-sans;
+}
+
+/* Link styling */
+a {
+  @apply text-lightBlue hover:underline;
+}
